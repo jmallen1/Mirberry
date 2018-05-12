@@ -1,0 +1,163 @@
+﻿body {
+}
+
+.home {
+    position: fixed;
+    padding: 0;
+    margin: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-attachment: fixed;
+    background-image: url('../images/overlay.png'),url('../images/iguazu.jpg');
+    background-position: center top;
+    background-size: cover;
+}
+
+h1, h2 {
+    color: white;
+    font-family: Sans-serif;
+}
+
+#logo{
+    margin:0;
+    padding:0;
+    }
+
+.banner {
+    position: fixed;
+    top: 33%;
+    bottom: 66%;
+    width: 100%;
+    text-align: center;
+}
+
+#qustion-to-appear {
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+#banner-logo {
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+
+#banner-content {
+    position: fixed;
+    width: 100%;
+}
+
+#banner-icons{
+    position:absolute;
+    top:0%;
+    width:100%;
+    z-index:-1
+    
+}
+
+.banner-icon-50 {
+    display: inline-block;
+    padding: 0.5em 0.5em;
+    margin: 0 0.3em 0.3em 0;
+    text-align: center;
+    transition: all 0.15s;
+    height: 150px;
+}
+.header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    padding: 5px 10px 10px 10px;
+}
+
+ #header-logo {
+    float: left;
+    width:10%;
+    height:auto;
+}
+#header-drop {
+    float: right;
+    padding-right: 5%;
+    vertical-align: central;
+    text-align: center;
+    height: 100%;
+    margin:0;
+    top:50%;
+    bottom:50%;
+}
+
+
+ul#header-drop li {
+    display: inline;
+    padding-left: 15px;
+    margin: 0;
+}
+
+ul#header-drop a {
+    color: lightgray;
+    text-transform: uppercase;
+    font-family: 'Roboto',sans-serif;
+    text-decoration: none;
+}
+
+ul#header-drop a:hover {
+    color: whitesmoke;
+    
+}
+
+#footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 10px 10px 5px 10px;
+    color: gray;
+    font-family: Sans-serif;
+    font-size:8px;
+    text-decoration: none;
+}
+
+#footer href
+{
+    text-decoration:none;
+}
+
+a.button2 {
+    display: inline-block;
+    padding: 0.5em 3em;
+    border: 0.16em solid #FFFFFF;
+    margin: 0 0.3em 0.3em 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 400;
+    color: #FFFFFF;
+    text-align: center;
+    transition: all 0.15s;
+}
+
+    a.button2:hover {
+        color: #DDDDDD;
+        border-color: #DDDDDD;
+    }
+
+    a.button2:active {
+        color: #BBBBBB;
+        border-color: #BBBBBB;
+    }
+
+@media all and (max-width:30em) {
+     a.button2 {
+        display: block;
+        margin: 0.4em auto;
+    }
+
+   
+}
