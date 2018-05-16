@@ -48,10 +48,8 @@ h1, h2 {
     height: auto;
 }
 
-#banner-icons{
-    position:relative;
-    width:100%;  
-    z-index:100;
+#gym-icon {
+    background-image: url('../images/gym-near.png');
 }
 
 .banner-icon-50 {
