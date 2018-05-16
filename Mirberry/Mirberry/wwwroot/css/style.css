@@ -33,30 +33,25 @@ h1, h2 {
     text-align: center;
 }
 
-#qustion-to-appear {
-    position: absolute;
-    top: 0;
+.banner-header{
+    top:0;
+    height:auto;
+}
+
+.banner-content {
+    position:relative;
     width: 100%;
 }
 
 #banner-logo {
-    position: absolute;
-    top: 0;
     width: 100%;
-}
-
-
-#banner-content {
-    position: fixed;
-    width: 100%;
+    height: auto;
 }
 
 #banner-icons{
-    position:absolute;
-    top:0%;
-    width:100%;
-    z-index:-1
-    
+    position:relative;
+    width:100%;  
+    z-index:100;
 }
 
 .banner-icon-50 {
@@ -128,7 +123,7 @@ ul#header-drop a:hover {
     text-decoration:none;
 }
 
-a.button2 {
+a.button {
     display: inline-block;
     padding: 0.5em 3em;
     border: 0.16em solid #FFFFFF;
@@ -143,18 +138,18 @@ a.button2 {
     transition: all 0.15s;
 }
 
-    a.button2:hover {
+    a.button:hover {
         color: #DDDDDD;
         border-color: #DDDDDD;
     }
 
-    a.button2:active {
+    a.button:active {
         color: #BBBBBB;
         border-color: #BBBBBB;
     }
 
 @media all and (max-width:30em) {
-     a.button2 {
+     a.button {
         display: block;
         margin: 0.4em auto;
     }

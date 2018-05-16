@@ -9,3 +9,14 @@ C:\Projects\Mirberry\Mirberry\obj\Debug\netcoreapp2.0\Mirberry.AssemblyInfoInput
 C:\Projects\Mirberry\Mirberry\obj\Debug\netcoreapp2.0\Mirberry.AssemblyInfo.cs
 C:\Projects\Mirberry\Mirberry\obj\Debug\netcoreapp2.0\Mirberry.dll
 C:\Projects\Mirberry\Mirberry\obj\Debug\netcoreapp2.0\Mirberry.pdb
+C:\Projects\Mirberry\Mirberry\Mirberry\obj\Debug\netcoreapp2.0\Mirberry.dll
+C:\Projects\Mirberry\Mirberry\Mirberry\obj\Debug\netcoreapp2.0\Mirberry.pdb
+C:\Projects\Mirberry\Mirberry\Mirberry\bin\Debug\netcoreapp2.0\Mirberry.deps.json
+C:\Projects\Mirberry\Mirberry\Mirberry\bin\Debug\netcoreapp2.0\Mirberry.runtimeconfig.json
+C:\Projects\Mirberry\Mirberry\Mirberry\bin\Debug\netcoreapp2.0\Mirberry.runtimeconfig.dev.json
+C:\Projects\Mirberry\Mirberry\Mirberry\bin\Debug\netcoreapp2.0\Mirberry.dll
+C:\Projects\Mirberry\Mirberry\Mirberry\bin\Debug\netcoreapp2.0\Mirberry.pdb
+C:\Projects\Mirberry\Mirberry\Mirberry\obj\Debug\netcoreapp2.0\Mirberry.csprojResolveAssemblyReference.cache
+C:\Projects\Mirberry\Mirberry\Mirberry\obj\Debug\netcoreapp2.0\Mirberry.csproj.CoreCompileInputs.cache
+C:\Projects\Mirberry\Mirberry\Mirberry\obj\Debug\netcoreapp2.0\Mirberry.AssemblyInfoInputs.cache
+C:\Projects\Mirberry\Mirberry\Mirberry\obj\Debug\netcoreapp2.0\Mirberry.AssemblyInfo.cs
