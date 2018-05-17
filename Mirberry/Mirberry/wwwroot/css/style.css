@@ -51,7 +51,7 @@ h1, h2 {
 }
 
 #gym-icon {
-    background-image: url('../images/gym-near.png');
+    background-image: url('~/images/gym-near.png');
 }
 
 .banner-icon-50 {

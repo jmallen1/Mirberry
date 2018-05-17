@@ -13,7 +13,9 @@ var $beginButton = $("#begin-button");
 
 $beginButton.on("click", function () {
     $homeBanner.hide();
-    $beginQuestion.fadeIn(500);
+    $beginQuestion.fadeIn(1000, function () {
+        // this runs once faded out so is effectivly a 'wait until done'
+    });
     $beginIcons.fadeIn(1500)
     
 })
