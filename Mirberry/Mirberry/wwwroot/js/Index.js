@@ -5,9 +5,10 @@ var $beginBanner = $("#banner-begin");
 var $beginQuestion = $("#begin-question");
 var $beginIcons = $("#banner-icons");
 
+    
     $beginQuestion.hide();
     $beginIcons.hide();
-
+    $beginBanner.toggle();
 var $beginButton = $("#begin-button");
 
 

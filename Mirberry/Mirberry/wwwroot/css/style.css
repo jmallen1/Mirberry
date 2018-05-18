@@ -1,7 +1,7 @@
 ﻿body {
 }
 
-.home {
+.background {
     position: fixed;
     padding: 0;
     margin: 0;
@@ -10,14 +10,27 @@
     width: 100%;
     height: 100%;
     background-attachment: fixed;
-    background-image: url('../images/overlay.png'),url('../images/iguazu.jpg');
     background-position: center top;
     background-size: cover;
 }
 
-.background #home {
-    background-image: url('../images/overlay.png'),url('../images/iguazu.jpg');
+#home {
+    background-image: url('../images/background/overlay.png'),url('../images/background/iguazu.jpg');
 }
+#about {
+    background-image: url('../images/background/overlay.png'),url('../images/background/Mountain.jpg');
+}
+#food {
+    background-image: url('../images/background/overlay.png'),url('../images/background/House.jpg');
+}
+#gym {
+    background-image: url('../images/background/overlay.png'),url('../images/background/Ilah-Grande-Beach.jpg');
+}
+
+#travel {
+    background-image: url('../images/background/overlay.png'),url('../images/background/Ilah-Grande-Lagoon.jpg');
+}
+
 h1, h2 {
     color: white;
     font-family: Sans-serif;
@@ -36,9 +49,13 @@ h1, h2 {
     text-align: center;
 }
 
-.banner-header{
-    top:0;
-    height:auto;
+#banner-begin
+{
+    display:none;
+}
+.banner-header {
+    top: 0;
+    height: auto;
 }
 
 .banner-content {
@@ -46,6 +63,7 @@ h1, h2 {
     width: 100%;
     height:auto;
     bottom:0;
+    
 }
 
 #banner-logo {
@@ -150,6 +168,13 @@ a.button {
         color: #BBBBBB;
         border-color: #BBBBBB;
     }
+
+.thirdOfPage {
+    height: 33vh;
+    width: auto;
+    border-style: ridge;
+}
+
 
 @media all and (max-width:30em) {
      a.button {

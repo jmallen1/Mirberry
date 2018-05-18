@@ -19,5 +19,23 @@ namespace Mirberry.Controllers
 
             return View();
         }
+        public IActionResult Gym()
+        {
+            ViewBag.Title = "Gym";
+
+            return View();
+        }
+        public IActionResult Food()
+        {
+            ViewBag.Title = "Food";
+
+            return View();
+        }
+        public IActionResult Travel()
+        {
+            ViewBag.Title = "Travel";
+
+            return View();
+        }
     }
 }
