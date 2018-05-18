@@ -15,6 +15,9 @@
     background-size: cover;
 }
 
+.background #home {
+    background-image: url('../images/overlay.png'),url('../images/iguazu.jpg');
+}
 h1, h2 {
     color: white;
     font-family: Sans-serif;
