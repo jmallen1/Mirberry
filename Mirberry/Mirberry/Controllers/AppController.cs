@@ -6,10 +6,17 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace Mirberry.Controllers
 {
-    public class HomeController : Controller
+    public class AppController : Controller
     {
         public IActionResult Index()
         {           
+            return View();
+        }
+
+        public IActionResult About()
+        {
+            ViewBag.Title = "About";
+
             return View();
         }
     }

@@ -30,7 +30,7 @@ namespace TestApplication
 
             app.UseMvc(routes =>
             {
-                routes.MapRoute(name:"Default", template:"{controller=Home}/{action=Index}/{id?}");
+                routes.MapRoute(name:"Default", template:"{controller=App}/{action=Index}/{id?}");
             }
             );
         }
