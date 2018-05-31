@@ -25,7 +25,7 @@ namespace Mirberry.Controllers
             if (ModelState.IsValid)
             {
                 // do thing
-                //TestConsoleWriter.Write("");
+                //ITestConsoleWriter.Write("");
             }
 
             return View();

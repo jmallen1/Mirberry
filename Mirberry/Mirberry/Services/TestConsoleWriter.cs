@@ -6,7 +6,7 @@ using Microsoft.Extensions.Logging;
 
 namespace Mirberry.Services
 {
-    public class TestConsoleWriter
+    public class TestConsoleWriter : ITestConsoleWriter
     {
         private readonly ILogger<TestConsoleWriter> _logger;
 
