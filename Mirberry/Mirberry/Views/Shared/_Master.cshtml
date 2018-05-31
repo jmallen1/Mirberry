@@ -19,16 +19,17 @@
                 <img id="header-logo" src="~/images/logo/logo2.png" />
             </div>
             <ul id="header-drop">
-                <li><a href="/App/Index">HOME</a></li>
-                <li><a href="/App/Gym">GYM</a></li>
-                <li><a href="/App/Travel">TRAVEL</a></li>
-                <li><a href="/App/Food">FOOD</a></li>
-                <li><a href="/App/About">ABOUT</a></li>
+                <li><a asp-controller="App" asp-action="Index">HOME</a></li>
+                <li><a asp-controller="App" asp-action="Gym">GYM</a></li>
+                <li><a asp-controller="App" asp-action="Travel">TRAVEL</a></li>
+                <li><a asp-controller="App" asp-action="Food">FOOD</a></li>
+                <li><a asp-controller="App" asp-action="About">ABOUT</a></li>
             </ul>
         </nav>
         @RenderBody()
     </section>
     <script src="~/lib/jQuery/dist/jquery.min.js"></script>
     <script src="~/js/index.js"></script>
+    @RenderSection("sctipts",false)
 </body>
 </html>

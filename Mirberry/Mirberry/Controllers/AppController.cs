@@ -13,16 +13,33 @@ namespace Mirberry.Controllers
             return View();
         }
 
+        [HttpGet]
         public IActionResult About()
         {
-            ViewBag.Title = "About";
+              return View();
+        }
+
+        [HttpPost]
+        public IActionResult About(ViewModels.AboutViewModel model)
+        {
+            if (ModelState.IsValid)
+            {
+                // do thing
+                //TestConsoleWriter.Write("");
+            }
 
             return View();
         }
+
+        [HttpGet]
         public IActionResult Gym()
         {
-            ViewBag.Title = "Gym";
+           return View();
+        }
 
+        [HttpPost]
+        public IActionResult About(ViewModels.GymViewModel model)
+        {
             return View();
         }
         public IActionResult Food()

@@ -1,10 +1,47 @@
-﻿
+﻿@model Mirberry.ViewModels.GymViewModel
 @{
     ViewData["Title"] = "Gym";
 }
 
 <div class="background" id="gym">
-    <div class=" = banner">
-
+    <div ID="container">
+        <div id="gym-title">
+            <h1 id="gym-gym">Gym</h1>
+            <h1 id="gym-date">Date</h1>
+        </div>
+        <div id="gym-title">
+            <h1 id="gym-gym">Progression: PlaceHolder &nbsp</h1>
+            <h1 id="gym-gym">Level: 1</h1>
+            <a href="#" class="button" id="gym-date">Skip</a>
+        </div>
+        <div id="gym-title">
+            <h1 id="gym-gym">Exercise  &nbsp</h1>
+            <h1 id="gym-gym">Target: 1 x 1 &nbsp</h1>
+            <h1 id="gym-gym">Goal: 5 x 5 </h1>
+        </div>
+        <div id="gym-title">
+            <form>
+                <input type="number" asp-for="ES1" />
+                <input type="number" asp-for="ES2" />
+                <input type="number" asp-for="ES3" />
+                <input type="number" asp-for="ES4" />
+                <input type="number" asp-for="ES5" />
+            </form>
+        </div>
+        <div id="gym-title">
+            <h1 id="gym-gym">Mobility  &nbsp</h1>
+            <h1 id="gym-gym">Target: 1 x 1 &nbsp</h1>
+            <h1 id="gym-gym">Goal: 5 x 5 </h1>
+        </div>
+        <div id="gym-title">
+            <form>
+                <input type="number" asp-for="MS1" />
+                <input type="number" asp-for="MS2" />
+                <input type="number" asp-for="MS3" />
+                <input type="number" asp-for="MS4" />
+                <input type="number" asp-for="MS5" />
+            </form>
+        </div>
+        <input type="submit" value="Send Message" />
     </div>
 </div>

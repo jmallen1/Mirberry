@@ -1,4 +1,5 @@
-﻿body {
+﻿html, body {
+    height: 100%;
 }
 
 .background {
@@ -40,6 +41,40 @@ h1, h2 {
     margin:0;
     padding:0;
     }
+
+#container {
+    display: flex; /* establish flex container */
+    flex-direction: column; /* stack flex items vertically */
+    justify-content: center; /* center items vertically, in this case */
+    align-items: center; /* center items horizontally, in this case */
+    height: 90%;
+    width: 50%;
+    vertical-align: central;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+#gym-title
+{
+    display: inline;
+    width: 100%;
+}
+
+#gym-gym {
+    display: inline;
+    float:left;
+    text-align:left;
+    vertical-align:central;
+}
+#gym-date {
+    display: inline;
+    float:right;
+    text-align:right;
+}
 
 .banner {
     position: fixed;
