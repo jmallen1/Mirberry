@@ -1,15 +1,15 @@
-﻿html, body {
+﻿/*html, body {
     height: 100%;
 }
 
 .background {
-    position: fixed;
+    position: absolute;
     padding: 0;
     margin: 0;
     top: 0;
     left: 0;
-    width: 100%;
-    height: 100%;
+    right: 0;
+    bottom: 0;
     background-attachment: fixed;
     background-position: center top;
     background-size: cover;
@@ -42,20 +42,30 @@ h1, h2 {
     padding:0;
     }
 
+#cover-all{
+    display:block;
+    position:absolute;
+    height:100%;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+}
+
 #container {
-    display: flex; /* establish flex container */
-    flex-direction: column; /* stack flex items vertically */
-    justify-content: center; /* center items vertically, in this case */
-    align-items: center; /* center items horizontally, in this case */
+    display: flex; /* establish flex container 
+    flex-direction: column;  stack flex items vertically 
+    justify-content: center;  center items vertically, in this case 
+    align-items: center;  center items horizontally, in this case 
     height: 90%;
-    width: 50%;
+    width: auto;
     vertical-align: central;
     position: absolute;
     top: 0;
     bottom: 0;
     left: 0;
     right: 0;
-    margin: auto;
+    margin: 1em;
 }
 
 #gym-title
@@ -91,10 +101,11 @@ h1, h2 {
 .banner-header {
     top: 0;
     height: auto;
+    
 }
 
 .banner-content {
-    position:relative;
+    
     width: 100%;
     height:auto;
     bottom:0;
@@ -146,7 +157,7 @@ h1, h2 {
 
 ul#header-drop li {
     display: inline;
-    padding-left: 15px;
+    padding-left: 1em;
     margin: 0;
 }
 
@@ -210,6 +221,20 @@ a.button {
     border-style: ridge;
 }
 
+input[type=number] {
+    -moz-appearance: textfield;
+    width: 2em;
+    height:2em;
+    font-family: Sans-serif;
+    font-size: larger;
+    text-align: center;
+}
+
+    input[type=number]::-webkit-inner-spin-button,
+    input[type=number]::-webkit-outer-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+    }
 
 @media all and (max-width:30em) {
      a.button {
@@ -218,4 +243,4 @@ a.button {
     }
 
    
-}
+}*/

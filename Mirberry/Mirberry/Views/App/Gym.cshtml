@@ -6,13 +6,13 @@
 <div class="background" id="gym">
     <div ID="container">
         <div id="gym-title">
-            <h1 id="gym-gym">Gym</h1>
+            <a href="#" class="button" id="gym-title">Skip</a>
             <h1 id="gym-date">Date</h1>
         </div>
         <div id="gym-title">
             <h1 id="gym-gym">Progression: PlaceHolder &nbsp</h1>
             <h1 id="gym-gym">Level: 1</h1>
-            <a href="#" class="button" id="gym-date">Skip</a>
+            
         </div>
         <div id="gym-title">
             <h1 id="gym-gym">Exercise  &nbsp</h1>
@@ -21,11 +21,16 @@
         </div>
         <div id="gym-title">
             <form>
-                <input type="number" asp-for="ES1" />
-                <input type="number" asp-for="ES2" />
-                <input type="number" asp-for="ES3" />
-                <input type="number" asp-for="ES4" />
-                <input type="number" asp-for="ES5" />
+                <label>Set 1:</label>
+                <input type="number" asp-for="ES1" min="1" max="60" />
+                <label>Set 2:</label>
+                <input type="number" asp-for="ES2" min="1" max="60" />
+                <label>Set 3:</label>
+                <input type="number" asp-for="ES3" min="1" max="60" />
+                <label>Set 4:</label>
+                <input type="number" asp-for="ES4" min="1" max="60" />
+                <label>Set 5:</label>
+                <input type="number" asp-for="ES5" min="1" max="60" />
             </form>
         </div>
         <div id="gym-title">
@@ -35,12 +40,18 @@
         </div>
         <div id="gym-title">
             <form>
-                <input type="number" asp-for="MS1" />
-                <input type="number" asp-for="MS2" />
-                <input type="number" asp-for="MS3" />
-                <input type="number" asp-for="MS4" />
-                <input type="number" asp-for="MS5" />
+                <label>Set 1:</label>
+                <input type="number" asp-for="MS1" min="1" max="60" />
+                <label>Set 2:</label>
+                <input type="number" asp-for="MS2" min="1" max="60" />
+                <label>Set 3:</label>
+                <input type="number" asp-for="MS3" min="1" max="60" />
+                <label>Set 4:</label>
+                <input type="number" asp-for="MS4" min="1" max="60" />
+                <label>Set 5:</label>
+                <input type="number" asp-for="MS5" min="1" max="60" />
             </form>
+            <br />
         </div>
         <input type="submit" value="Send Message" />
     </div>
